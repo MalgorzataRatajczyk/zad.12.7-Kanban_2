@@ -27,7 +27,7 @@ $grey: rgb(131, 149, 167);
     align-items: center;
     background-color:$black;
     width: 100%;
-    height: 100vh;
+    height: auto;
     h1 {
         font-family: 'Lilita One', cursive;
         font-weight: 400;
@@ -54,7 +54,7 @@ $grey: rgb(131, 149, 167);
     }
     .column-container {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: center;
         align-items: flex-start;
         align-content: space-between;
