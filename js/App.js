@@ -23,13 +23,13 @@ fetch(baseUrl + '/board', { headers: myHeaders })
 
     .then(function(resp) {
 
-    return resp.json();
+        return resp.json();
 
     })
 
     .then(function(resp) {
 
-setupColumns(resp.columns);
+        setupColumns(resp.columns);
 
 });
   
