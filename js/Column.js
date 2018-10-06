@@ -40,8 +40,6 @@ function Column(id, name) {
 
       });
 
-      self.addCard(new Card(cardName));
-
     }
 
   });
